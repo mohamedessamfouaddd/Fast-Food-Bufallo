@@ -1,0 +1,246 @@
+.nav-container{
+    --tw-bg-opacity: 1;
+    background-color: rgb(28 28 27 / var(--tw-bg-opacity));
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+    padding-inline: 3rem;
+    color: white;
+  position: fixed;
+  z-index: 9999;
+  :any-link{
+    color: white;
+  }
+
+  
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    .photo{
+        display: flex;
+       align-items: center;
+        gap: .4rem;
+        font-size: 1.02rem;
+        cursor: pointer;
+       
+    }
+    .icon{
+        display: flex;
+        gap: .4rem;
+        font-size: 1rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        &:hover{
+            color: rgb(238, 72, 43);
+            cursor: pointer;
+        }
+        .bscart{
+          font-size: 1.3rem;
+          line-height: 5px;
+          
+           
+            
+        }
+        span{
+           margin-top: 5px;
+        }
+       
+    }
+    .menu{
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: none;
+    }
+    .number{
+        background-color: white;
+        color: black;
+        width: 1.8rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        padding-block: 5px;
+    }
+    
+}
+.center{
+    cursor: pointer;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    .tags{
+        display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1rem; 
+
+    }
+    .bag{
+        font-size: 1.3rem;
+        cursor: pointer;
+        display: none;
+    }
+    h3{
+
+font-size: 1.1rem;
+cursor: pointer;
+    }
+    
+    h3:hover{
+        color: rgb(240, 67, 37);
+    }
+    
+}
+.active{
+    color: red !important;
+}
+.log-container{
+    position: relative;
+    margin-top: 15px;
+  
+  
+   
+    .hello{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+   
+   
+}
+.culomn {
+    position: relative;
+    margin-top: 100px;
+    width: 170px;
+    position: absolute;
+    bottom: -140px;
+   display: none;
+   left: -10px;
+   
+   
+
+
+ul{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    --tw-bg-opacity: 1;
+    background-color: rgb(28 28 27 / var(--tw-bg-opacity));
+    gap: .5rem;
+    li {
+        padding-bottom: 5px;
+        transition: .5s ease-in-out;
+      &:hover{
+       color: rgb(255 95 0 / var(--tw-bg-opacity));
+      }
+     
+    }
+  
+   
+   
+}
+  
+  
+    :link{
+        margin-bottom: 15px;
+        list-style: none;
+        text-transform: capitalize;
+       
+        &:hover::after {
+            background-color: rgb(255 95 0 / var(--tw-bg-opacity)); ;
+          }
+       
+      
+        
+        &::after{
+            content: "";
+            width:100%;
+            height: 2px;
+            background-color: #fff;
+            position: absolute;
+            left: 0;
+            transition: .5s ease-in-out;
+  
+           
+        }
+
+    }
+}
+.none{
+    display: block !important;
+}
+.none2{
+    display: flex !important;
+}
+
+.hello{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+
+    .i{
+        font-size: 1.3rem;
+        margin-top: 1px;
+        transition: .5s ease-in-out;
+        &:hover{
+            color:rgb(255 95 0 / var(--tw-bg-opacity)); ; 
+
+        }
+    }
+    h4{
+        text-transform: capitalize;
+        transition: .5s ease-in-out;
+        font-size: 1rem;
+        &:hover{
+            color:rgb(255 95 0 / var(--tw-bg-opacity)); ;
+        }
+    }
+
+}
+
+
+@media (max-width:1000px) {
+    .left-side{
+        .icon{
+            display: none;
+        }
+        .photo{
+            display: none;
+        }
+        .number{
+            display: none;
+        }
+        .menu{
+            display: block;
+        }
+    }
+    .right-side{
+        .tags{
+            display: none;
+        }
+        .bag{
+            display: block;
+        }
+        .log-container{
+            display: none;
+        }
+      
+
+
+    }.center{
+        img{
+            width: 150px;
+        }
+    }  
+    
+}

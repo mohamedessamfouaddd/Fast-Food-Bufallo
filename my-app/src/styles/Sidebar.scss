@@ -1,0 +1,92 @@
+.sidebar{
+    width:17rem;
+    min-height: 100vh;
+    --tw-bg-opacity: 1;
+    background-color: rgb(28 28 27 / var(--tw-bg-opacity));
+    color: white ;
+
+    padding-inline: 15px;
+    transition: .5s ease-in-out;
+    left: -100%;
+    position: fixed;
+    transform-origin: top left;
+    z-index: 99999;
+    margin-top: 80px;
+ 
+
+    
+    p{
+        font-size: 1rem;
+        margin-bottom: 15px;
+        cursor: pointer;
+       
+       
+    }
+    h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        padding-top: 5px;
+       
+        font-weight: bold;
+    }
+    h4{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .lang{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        .photo{
+            display: flex;
+            align-items: center;
+            gap: .3rem;
+        }
+        .frist{
+            display: flex;
+            align-items: center;
+            gap: .3rem;
+        }
+        .frist-p{
+            margin: 0;
+            font-size: .9rem;
+        }
+    }
+    hr{
+       
+        border-color:rgba(255, 255, 255, 0.521);
+        margin-bottom: 15px;
+     
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: flex-start;
+       
+        margin-bottom: 5px;
+        span{
+            color: white;
+        }
+        
+}
+}
+.show{
+  
+    left: 0;
+   
+    transition: .5s ease-in-out;
+    
+}
+.icon-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logout{
+        font-size: 2rem;
+        margin: 100px;
+        cursor: pointer;
+    }
+}

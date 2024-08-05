@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "swipers",
+  "info": {
+    "singularName": "swiper",
+    "pluralName": "swipers",
+    "displayName": "swiper"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

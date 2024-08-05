@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kids",
+  "info": {
+    "singularName": "kid",
+    "pluralName": "kids",
+    "displayName": "kid",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "required": true,
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

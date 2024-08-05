@@ -1,0 +1,329 @@
+.Cart-container{
+    margin-bottom: 20px;
+    
+   
+ 
+    .Cart{
+        padding-top: 200px;
+        margin-inline-start: 70px;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        
+        h1{
+            --tw-text-opacity: 1;
+        color: rgb(28 28 27 / var(--tw-text-opacity));
+        text-transform: uppercase;
+        font-size: 2rem;
+        line-height: 2.23rem;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        }
+        .number{
+            background-color: black;
+            color: white;
+            width: 1.8rem;
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
+            padding-block: 5px;
+        }
+    }
+    p{
+      display: flex;
+      justify-content: center;
+        font-size: .9rem;
+    } 
+.information{
+    display: flex;
+   justify-content: flex-end;
+    margin-inline-end: 50px;
+   
+    
+    .qty{
+        font-size: 1.2rem;
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+        opacity: .8;
+        text-transform: capitalize;
+       
+    }
+   
+}
+
+
+
+
+}
+.Cart-two-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 4rem;
+    .title{
+        
+        p{
+         margin-left: 5px;
+         margin-top: 2px;
+         font-size: 1rem;
+         text-transform: capitalize;
+         opacity: .5;
+         span{
+          padding-left: 2px;
+         
+            
+         }
+        
+        
+           
+        }
+       
+       
+    }
+    
+    .information{
+        display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+        margin-inline-end: 200px;
+        margin-bottom: 30px;
+        gap: 2rem;
+        
+        
+      
+      
+       
+        
+        .qty{
+            font-size: 1.2rem;
+            display: flex;
+            gap: 8rem;
+            align-items: center;
+            opacity: .8;
+            text-transform: capitalize;
+           
+        }
+       
+    }  
+   
+
+.cart-left{
+   
+    display: flex;
+    align-items: center;
+    margin-inline-start:30px ;
+    
+  
+    gap: 1rem;
+    .photo{
+        width: 90px;
+        display: flex;
+        flex-shrink: 0;
+        img{
+            width: 100%;
+        }
+    }
+}
+.cart-right{
+ display: flex;
+ align-items: center;
+gap: 7rem;
+   
+
+ 
+ 
+    
+    .quntity{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+       
+      
+        .encrement{
+            border: 1px solid rgb(255 95 0 / var(--tw-bg-opacity)) ;
+            border-radius: 50%;
+            font-size: 1.3rem;
+            padding-inline: 5px;
+            cursor: pointer;
+            color: rgb(255 95 0 / var(--tw-bg-opacity));
+            --tw-bg-opacity: 1;
+          
+            
+           
+           
+           
+        }
+        .decrement{
+            border: 1px solid black ;
+            border-radius: 50%;
+            font-size: 1.3rem;
+            padding-inline: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            
+           
+
+        }
+    }
+    
+
+}
+
+}
+
+
+
+
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+   
+   
+   
+    .totalprice{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+        h2{
+            text-transform: uppercase;
+        }
+        .cash{
+            font-size: 1.3rem;
+            --tw-text-opacity: 1;
+    color: rgb(255 95 0 / var(--tw-text-opacity));
+    font-weight: 700;
+        }
+    }
+    .btn1{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: 20px;
+       button{
+        width: 20rem;
+       border: 1px solid;
+        --tw-text-opacity: 1;
+    color: rgb(255 95 0 / var(--tw-text-opacity));
+    text-transform: uppercase;
+    padding-block: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+       }
+       
+    }
+    .btn2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        button{
+            width: 20rem;
+            border: 1px solid;
+         color: white;
+         text-transform: uppercase;
+         padding-block: 15px;
+         cursor: pointer;
+         font-size: 1rem;
+         font-weight: 700;
+         --tw-bg-opacity: 1;
+    background-color: rgb(255 95 0 / var(--tw-bg-opacity));
+
+        }
+
+    }
+    .need{
+        margin-bottom: 50px;
+        text-transform: capitalize;
+        color: red;
+        font-size: 1.2rem;
+        border-bottom: 1px solid black;
+        display: none;
+    }
+   
+}
+@media(max-width:950px){
+    .title{
+        p{
+            font-size: .7rem !important;
+            span{
+
+                font-size: .6rem;
+            }
+
+        }
+        h4{
+            font-size: .8rem;
+        }
+    }
+   
+  
+    .Cart-two-container{
+        display: flex;
+        margin-bottom: 50px;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-inline: 15px !important;
+       
+        .information{
+            margin: auto;
+        }
+
+       
+    }
+    .footer{
+        button{
+            width: 17rem !important;
+        }
+    }
+    .cart-left{
+   
+        display: flex;
+        align-items: center;
+        margin-inline-start:0px !important ;
+        
+      
+        gap: 1rem;
+        .photo{
+            width: 70px !important;
+            display: flex;
+            flex-shrink: 0;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .Cart-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        justify-content: center;
+        .Cart{
+            margin: 0px !important;
+        }
+    }
+   
+    }
+    .go{
+        display: block !important;
+    }
+   
+
+
+
+
